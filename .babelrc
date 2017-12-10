@@ -10,5 +10,12 @@
         }
       }
     ]
-  ]
+  ],
+  "env": {
+    "testing": {
+      "plugins": [
+        "rewire"
+      ]
+    }
+  }
 }
