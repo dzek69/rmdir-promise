@@ -8,7 +8,7 @@ A template for writing next awesome JavaScript library.
 - unit tests with `mocha` & `must.js`
 - es6+ first approach, with es5 transpiled version to be found inside `dist` folder *
 
-\* - transpiling kills JS engines optimizations, makes codes longer and tree shaking harder to do and or slower
+\* - transpiling kills JS engines optimizations, makes codes longer and tree shaking harder to do and/or slower
 
 ## To be done
 
