@@ -1,8 +1,8 @@
 {
-  "name": "js-library-template",
-  "version": "1.0.1",
+  "name": "rmdir-promise",
+  "version": "1.0.0",
   "main": "src/index.js",
-  "repository": "https://github.com/dzek69/js-library-template.git",
+  "repository": "https://github.com/dzek69/rmdir-promise.git",
   "author": "Jacek Nowacki @dzek69 <git-public@dzek.eu>",
   "license": "MIT",
   "scripts": {
@@ -10,6 +10,9 @@
     "docs": "node build-scripts/docs && jsdoc src/* README.md -t node_modules/docdash -d ./docs -u ./tutorials",
     "transpile": "node build-scripts/transpile && babel src -d dist --ignore spec.js",
     "prepublishOnly": "npm run docs && npm run transpile"
+  },
+  "dependencies": {
+    "rmdir": "^1.2.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -20,7 +23,6 @@
     "lodash": "^4.17.4",
     "mkdirp-promise": "^5.0.1",
     "mocha": "^4.0.1",
-    "must": "^0.13.4",
-    "rmdir": "^1.2.0"
+    "must": "^0.13.4"
   }
 }

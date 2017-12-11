@@ -6,18 +6,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [UNRELEASED]
 (nothing yet)
 
-## [1.0.1] - 2017-12-10
-### Added
-- Rewire plugin for testing
-- previously missing information about CHANGELOG example
-
-### Fixed
-- test running command
-
-
 ## [1.0.0] - 2017-12-10
 ### Added
 - first version
-- documentation generating with `jsdoc` with `docdash` template
-- unit tests with `mocha` & `must.js`
-- es6+ first approach, with es5 transpiled version to be found inside `dist` folder
+- promisified rmdir
+- rmdir.silent for built-in ignoring of already removed directories

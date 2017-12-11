@@ -1,6 +1,6 @@
 const fs = require("fs");
 const mkdir = require("mkdirp-promise");
-const rmdir = require("./utils/rmdir");
+const { silent: rmdir } = require("./../src/index");
 
 (async () => {
     const tasks = [
