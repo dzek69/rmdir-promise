@@ -20,7 +20,7 @@
     "babel-preset-env": "^1.6.1",
     "docdash": "^0.4.0",
     "jsdoc": "^3.5.5",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.21",
     "mkdirp-promise": "^5.0.1",
     "mocha": "^4.0.1",
     "must": "^0.13.4"
